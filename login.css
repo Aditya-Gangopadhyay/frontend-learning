@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    margin: 0 auto;
+    border-radius: 2%;
+    font-family: "Sidilus";
+
+}
+
+.text
+{ 
+    line-height: 1.5;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.inputs{ 
+    margin: 0 5%;
+    padding:10px;
+    border: 2px solid grey;
+    border-radius: 15%;
+}
+.inputs:focus{
+    background-color: aqua;
+
+}
+.button{
+    background-color: lightblue;
+    padding: 10px 50px;
+}
+.button:hover{
+    background-color: lightgreen;
+}
+.button:disabled{
+    background-color: chartreuse;
+}
+
+.check:checked{
+   width: 20px;
+   height: 20px;
+}
+li:nth-child(even){
+    color: red;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(161, 15, 15);
+}

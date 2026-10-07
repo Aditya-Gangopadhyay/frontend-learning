@@ -1,0 +1,33 @@
+h1{
+    color: violet;
+} 
+
+.heading{
+    color: red;
+} 
+
+#h1{
+    color: green;
+}
+
+.firstDiv{
+    padding: 20px 120px 20px 120px;
+    margin: 20px 50px 20px 50px;
+    background-color: lightblue;
+    border:4px dotted black;
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ p{
+    font-size: 1rem; 
+    color: blue;
+    font-weight: 70;
+ }
+ .username{
+    border-radius: 10px;
+    font-family:url('path/to/font.woff')
+ }

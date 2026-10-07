@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/register" method="post">
+      <label for="username">Username</label>
+      <input name="username" id="username" type="text" required />
+      <label for="password">Password</label>
+      <input name="password" id="password" type="password" required minlength="8" maxlength="10"   />
+
+      <label
+        >MALE
+        <input type="radio" name="gender" value="male" />
+      </label>
+
+      <label
+        >FEMALE
+        <input type="radio" name="gender" value="female" />
+      </label>
+
+      LANGUAGES
+      <label>
+        <input type="checkbox" name="languages" value="CSS" />
+        CSS
+      </label>
+      
+      <label>
+        <input type="checkbox" name="languages" value="HTML" />
+        HTML
+      </label>
+      
+      <label> Date </label>
+      date: <input type="date" name="date" /> file:
+      <input type="file" name="file" /> number:
+      <input type="number" name="number" /> range:
+      <input type="range" name="range" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
